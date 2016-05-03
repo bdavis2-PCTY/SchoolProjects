@@ -1,1 +1,1 @@
-Designed and developed by Braydon Davis using raw HTML5, CSS3, and Javascript/jQuery.
+Designed and developed by Braydon Davis using an existing web template, with edits done in HTML5 and CSS3.
