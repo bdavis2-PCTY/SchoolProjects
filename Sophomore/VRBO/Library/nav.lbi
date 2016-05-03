@@ -1,0 +1,9 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+			<div id='nav'>
+				<ul>
+					<li <?php if($PAGE=='home') 	echo 'class="selected"'; ?> ><a href='index.php'>Overview</a></li>
+					<li <?php if($PAGE=='booknow') 	echo 'class="selected"'; ?> ><a href='page.booknow.php'>Book Now</a></li>
+					<li <?php if($PAGE=='review') 	echo 'class="selected"'; ?> ><a href='page.review.php'>Reviews</a></li>
+					<li <?php if($PAGE=='gallery') 	echo 'class="selected"'; ?> ><a href='page.gallery.php'>Gallery</a></li>
+				</ul>
+			</div>

@@ -1,0 +1,437 @@
+@import url("include.reset.css");
+
+/****** START INCLUDE/INCLUDE.CSS.CSS ******/
+
+/* Global - Header */
+#header {
+	width:100%;
+	padding:10px 10px 10px 10px;
+	background-color:#444;
+	position:fixed;
+	left:0;
+	top:0;
+	min-width:1200px;
+}
+
+/* Logo */
+#header #logo img {
+	width:70px;
+	margin-left:150px;
+}
+
+#header #logo {
+	float:left;
+}
+
+/* Navigation Bar */
+#header #nav, #header #nav ul  {
+	display:block;
+}
+
+#header #nav {
+	display:block;
+	float:right;
+	margin-right:150px;
+	margin-top:15px;
+}
+
+#header #nav ul li {
+	margin-right:12px;
+	margin-left:12px;
+	position:relative;
+	float:left;
+	list-style:none;
+	outline:none;
+}
+
+#header #nav ul li a {
+	color:#ddd;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+	display:block;
+	padding:10px;
+	outline:none;
+}
+
+#header #nav ul li a:hover, #header #nav ul .selected a {
+	color:#E74C3C;
+}
+
+
+#header #logoHead {
+	color:#ddd;
+	position:fixed;
+	left:250px;
+	top:30px;
+	font-size:25px;
+}
+
+/* Global - Content */
+#pageContent {
+	margin-top: 92px;
+}
+
+#copyright {
+	text-align:center;
+	background-color:#444;
+	padding:30px;
+	color:#ddd;
+}
+
+input, a {
+	text-decoration:none;
+}
+
+strong {
+	font-weight:bold;
+}
+
+hr {
+	color:#E74C3C;
+	border:none;
+	height:1px;
+	background-color:#E74C3C;
+}
+
+#actualPageContent {
+	padding:50px 150px 50px 150px;
+	font-size:20px;
+	line-height:28px;
+	color:#444;
+	min-width:800px;
+}
+
+
+/* Global - Elements */
+.QuickButtonStyle1 {
+	padding:10px 20px 10px 20px;
+	border:none;
+	border-radius:5px;
+	font-weight:bold;
+	color:#fff;
+	font-size:20px;
+	background-color:#E74C3C;
+	outline:none;
+}
+
+.QuickButtonStyle2 { 
+	padding:5px 10px 5px 10px;
+	border:none;
+	border-radius:5px;
+	font-weight:bold;
+	color:#fff;
+	font-size:15px;
+	background-color:#E74C3C;
+	outline:none;
+}
+
+.QuickButtonStyle1:hover, .QuickButtonStyle2:hover {
+	cursor:pointer;
+	background-color:#F85D4D;
+}
+
+.QuickButtonStyle1:active, .QuickButtonStyle2:active {
+	background-color:#C63B2B;
+}
+
+#overlay {
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+}
+
+
+/* Home Page */
+#homeRentNow {
+	width:100%;
+	font-size:45px;
+	color:#fff;
+	text-shadow:0px 0px 3px #000;
+	text-align:center;
+	padding:240px 0 240px 0;
+	background:url(http://www.htmlpreviews.com/cloud/resort/stormis3/images/slider/slider.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow:hidden;
+	border-bottom:3px solid #444;
+}
+
+#homeRentNow h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin-bottom:20px;
+}
+
+#homePageContent {
+	width:850px;
+}
+
+/* Booking page */
+.bookH1{
+	font-size:35px;
+	color:#333;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+
+#bookMethods {
+	min-height:500px;
+	width:100%;
+	min-width:1110px;
+}
+
+
+#bookMethods #bookForm {
+	float:left;
+}
+
+#bookMethods #bookForm, #bookMethods #bookMap {
+	width:550px;
+}
+
+#bookMethods #bookMap {
+	text-align:right;
+}
+
+#bookMethods #bookMap {
+	float:right;
+	margin-left:10px;
+}
+
+#bookMethods #bookMap iframe { 
+	border-radius:5px;
+}
+
+
+#bookForm form label {
+	width:185px;
+	float:left;
+	padding:5px;
+}
+
+#bookEmailSent {
+	text-align:center;
+	width:100%;
+	border:1px solid #0d0;
+	background-color:#0a0;
+	color:#eee;
+	font-weight:bold;
+	padding:5px;
+	border-radius:3px;
+}
+
+#bookEmailSentClose { 
+	float:right;
+	background-color:#0B0;
+	border-radius:50%;
+	border:none;
+	color:#fff;
+	text-align:center;
+	padding:5px;
+}
+
+#bookEmailSentClose:hover {
+	background-color:#080;
+	cursor:pointer;
+}
+
+#bookErrorCloseBtn:hover { 
+	background-color:#800;
+	cursor:pointer;
+}
+
+#bookEmailProcess { 
+	text-align:center;
+	width:100%;
+	border:1px solid #FF9100;
+	background-color:#FFA300;
+	color:#eee;
+	font-weight:bold;
+	padding:5px;
+	border-radius:3px;
+}
+
+#bookForm form input[type=text], #bookForm form input[type=email], #bookForm form input[type=tel], #bookForm form input[type=number], #bookForm form input[type=date], #bookForm textarea
+{
+	width:250px;
+	margin-bottom:10px;
+	padding:5px;
+	border-radius:5px;
+	border:1px solid #bbb;
+	resize:none;
+}
+
+#mapBlocks {
+	width:1130px;
+	text-align:center;
+}
+
+
+#mapBlocks .mapCell {
+	padding:12px;
+	width:335px;
+	display:inline-table;
+	border:1px solid #ddd;
+	border-radius:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-right:10px;
+	text-align:left;
+}
+
+#mapBlocks .mapCell .mapCellName {
+	color:#333;
+	font-weight:bold;
+	float:left;
+}
+
+#mapBlocks .mapCell .mapCellDistance {
+	float:right;
+}
+
+#mapBlocks .mapCell .mapCellDescription {
+	display:block;
+	margin-top:8px;
+	border-top:1px solid #E74C3C;
+}
+
+#mapBlocks .mapCellHeader {
+	text-align:left;
+	color:#444;
+	font-size:25px;
+}
+
+
+/* Review page */
+.reviewsReviewBlock {
+	font-size:15px;
+	width:70%;
+	margin-bottom:20px;
+	padding:10px;
+}
+
+.reviewsReviewBlock .reviewStar { 
+	width:25px;
+}
+
+.reviewsReviewBlock .reviewBlockFrom { 
+	display:inline-table;
+	font-style: italic;
+}
+
+.reviewsReviewBlock .reviewStars {
+	float:right;
+}
+
+
+.reviewsReviewBlock .reviewBlockComment {
+	border-top:1px solid #444;
+	margin-top:5px;
+}
+
+#reviewsLeaveComment {
+	margin-top:20px;
+	font-size:16px;
+	border-radius:5px;
+	padding: 10px;
+	width:70%
+}
+
+#reviewsLeaveComment form {
+	padding:5px;
+}
+
+#reviewsLeaveComment label {
+	width:100px;
+	float:left;
+}
+
+#reviewsLeaveComment form input[type=text], #reviewsLeaveComment form input[type=number], #reviewsLeaveComment form textarea {
+	outline:none;
+	border:1px solid #ccc;
+	border-radius:5px;
+	resize:none;
+	padding:3px;
+	margin-bottom:5px;
+	width:300px;
+}
+
+
+/* GALERY PAGE */
+#galleryImages {
+	margin:auto;
+	text-align:center;
+}
+
+#galleryImages .galleryImage:hover {
+	cursor:pointer;
+}
+
+#galleryImages .galleryImage {
+	width:250px;
+}
+
+/* image popup */
+#imgPopup { 
+	background-color:#fff;
+	border-radius:10px;
+	color:#000;
+	box-shadow:0px 0px 3px #000;
+	padding:0;
+	margin:auto;
+	width:auto;
+}
+
+#imgPopWrapper {
+	margin:auto;
+	left:0;
+	top:2%;
+	height:94%;
+	width:100%;
+	position:fixed;
+	text-align:center;
+	max-height:97%;
+	overflow:auto;
+}
+
+#imgPopup img { 
+	border-radius:10px;
+	max-height:700px;
+}
+
+#imgPopup span  {
+	background-color:#fff;
+	color:#000;
+}
+
+
+/* Features Page */
+.featuresBlock {
+	border-top: 1px dashed #444;
+	width:70%;
+	padding-top:10px;
+	margin-bottom:30px;
+	min-width:680px;
+}
+
+.featuresBlock .blockName {
+	font-weight:bold;
+}
+
+.featuresBlock .featuresElement {
+	display:inline-table;
+	width:220px;
+}
+
+.lightText {
+	font-size:15px;
+	color:#aaa;
+}
+
+/****** END INCLUDE/INCLUDE.CSS.CSS ******/

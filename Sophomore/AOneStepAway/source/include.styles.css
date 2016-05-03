@@ -1,0 +1,236 @@
+ @import url("include.reset.css");
+
+#navigation{
+	position:fixed;
+	left:0;
+	top:-0;
+	height:150%;
+	width:170px;
+	background-color:rgb(0,200,0);
+	box-shadow:1px 0 5px #000;
+}
+
+#navigation li a {
+	padding:10px 5px 10px 30px;
+	font-weight:bold;
+}
+
+#navigation li, #navigation li a {
+	display:block;
+	text-decoration:none;
+	color:#fff;
+}
+
+#navigation .selected {
+	background-color:#fff;
+	color:#444;
+}
+
+
+#navigation li:active, #navigation li a:active { 
+	border:none;
+}
+
+#navigation  #icon {
+	text-align:center;
+	margin:auto auto 10px auto;
+}
+
+#navigation  #icon img {
+	width:120px;
+	margin:auto;
+	height:100px;
+	text-align:center;
+}
+
+#wrapper {
+	margin:0 0 0 170px;
+}
+
+#contents {
+	margin:30px 20px 60px 30px;
+}
+
+
+
+#menuDisplay {
+	position:fixed;
+	left:170px;
+	width:100%;
+	background-color:rgb(0,200,0);
+	display:block;
+	bottom:0;
+	padding:5px 5px 5px 5px;
+	box-shadow:4px 0px 5px #000;
+}
+
+
+#menuDisplay #actionBtn { 
+	width:170px;
+	padding:10px 5px 10px 0; 
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	background-color:rgb(0,200,0);
+	color:#fff;
+	border:none;
+}
+
+#menuDisplay #actionBtn:hover {
+	cursor:pointer;
+}
+
+#menuDisplay span {
+	color:#fff;
+	margin:0 30px 0 0;
+}
+
+#headingImage img { 
+	width:100%;
+	height:200px;
+	border:2px solid rgb(120,120,255);
+	border-radius:10px;
+	margin-bottom:20px;
+}
+
+#bodyContent {
+	padding-left:40px;
+}
+
+#header img { 
+	width:100%;
+	height:200px;
+}
+
+/* Popups */
+#popupWindow #popCont {
+	padding:30px;
+}
+
+/* Main Page */
+.home_Catigory {
+	width:800px;
+	margin:0 0 30px 10px;
+	padding:25px;
+	border-radius:5px;
+	box-shadow:1px 1px 6px #000;
+	background-color:#fff;
+	color:#000;
+	line-height:1.4em;
+}
+
+.home_Catigory .cadHeading {
+	font-weight:bold;
+	font-size:35px;
+	color:rgb(0,200,0);
+	margin-bottom:5px;
+}
+
+/* Contact page */
+#contactForm label {
+	width:180px;
+	margin-bottom:4px;
+	float:left;
+}
+
+#contactForm textarea {
+	height:100px;
+}
+
+#contactForm input[type=text], 
+#contactForm input[type=email],
+#contactForm textarea{
+	margin-bottom:4px;
+	resize:none;
+	width:230px;
+}
+
+#contactForm input[type=submit] {
+	background-color:rgb(0,200,0);
+	border:none;
+	font-weight:bold;
+	color:#fff;
+	padding:4px;
+}
+
+#contactForm input[type=submit]:hover{
+	cursor:pointer;
+}
+
+/* Images page */
+#imageListElements .imageItem {
+	display:inline-table;
+	margin:5px;
+	padding:5px;
+}
+
+#imageListElements .imageItem:hover {
+	border-radius:10px;
+	box-shadow:0px 0px 5px rgb(0,200,0);
+	cursor:pointer;
+}
+
+#imageListElements .imageItem img { 
+	width:200px;
+	height:150px;
+	border-radius:10px;
+	border:1px solid #333;
+}
+
+/* Others */
+@font-face {
+	font-family: custom_font;
+	src: url('../images/Ubuntu-L.ttf');
+}
+
+h1 {
+	font-size:40px;
+}
+
+strong {
+	font-weight:bold; 
+}
+	
+html { 
+  background: url(../images/page_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: custom_font;
+}
+
+/* Image popup */
+.overlay { 
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.6);
+}
+
+
+#closeButton:hover {
+	cursor:pointer; }
+
+
+#imagePop {
+	position:fixed;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	text-align:center;
+}
+
+
+#imagePop img {
+	margin-top:40px;
+	max-width:600px;
+	max-height:800px;
+	border-radius:15px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-58%);
+}

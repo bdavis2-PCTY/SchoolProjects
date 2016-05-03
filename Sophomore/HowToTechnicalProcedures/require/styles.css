@@ -1,0 +1,196 @@
+/* 
+	PAGE-MIN-WIDTH:1020px
+	BODY-BG: #0a0a0a
+	NAV-BG: #111111;
+*/
+
+html, body {
+	height:100%;
+}
+
+body { 
+	background-color:#eee;
+	min-width:1020px;
+	font-size:20px;
+	padding-bottom:20px;
+	color:#000;
+}
+
+a{
+	color:#2caea1;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#4ecfc3;
+	cursor:pointer;
+}
+
+strong {
+	font-weight:bold;
+}
+
+.color3 {
+	color:#2caea1;
+}
+
+#nav {
+	margin:auto;
+	text-align:center;
+	background-color:#111;
+	padding:10px;
+	border-bottom:2px solid #000;
+}
+
+#nav li {
+	display:inline-table;
+	padding:30px 50px;
+	width:95px;
+}
+
+#nav li.logo{
+	padding:52px 46px;
+	background-image:url("../images/logo.png");
+	background-size:180px;
+	background-repeat:no-repeat;
+	color:rgba(0,0,0,0);
+}
+
+#nav li a {
+	color:#fff;
+	font-weight:bold;
+	font-size:20px;
+	text-decoration:none;
+	display:block;
+}
+
+#nav li a:hover, #nav li.selected a {
+	color:#2caea1;
+}
+
+#nav li.logo a {
+	color:rgba(0,0,0,0);
+	font-size:15px;
+}
+
+#content {
+	margin:auto;
+	width:800px;
+	color:#000;
+	min-height:400px;
+	padding:0;
+}
+
+#content #pContent {
+	padding:10px 0 10px 0;
+	line-height:28px;
+	
+}
+
+#content #upperShadow {
+	width:100%;
+	box-shadow:inset 0px 0px 5px #ccc;
+	color:rgba(0,0,0,0);
+	font-size:1px;
+}
+
+
+#foot {
+	padding:30px 0 30px 0;
+	text-align:center;
+	left:0;
+	width:100%;
+	min-width:1020px;
+}
+
+
+#home_global_content {
+	margin-bottom:545px;
+}
+
+#home_content {
+	float:left;
+	width:450px;
+}
+
+#home_videos {
+	float:right;
+}
+
+
+#home_videos .video_block iframe{
+	width:300px;
+	height:200px;
+	margin-bottom:10px;
+	background:url("http://missasset.com/Content/images/loading_circle_fully_working.gif");
+}
+
+
+#videos_list iframe {
+	width:385px;
+	height:250px;
+	
+	margin:5px;
+}
+
+#videos_list .videoSection {
+	margin-bottom:40px;
+}
+
+#videos_list .videoSection h2 {
+	width:100%;
+	border-bottom:1px solid #111;
+	font-size:25px;
+}
+
+#contactForm label {
+	float:left;
+	width:120px;
+	margin-bottom:10px;
+}
+
+#contactForm input[type=text], #contactForm input[type=email], #contactForm textarea {
+	background-color:#ddd;
+	border:none;
+	resize:none;
+	border:1px solid #999;
+	border-radius:5px;
+	color:#111;
+	padding:4px;
+	width:250px;
+	margin-bottom:10px;
+}
+
+#contactForm textarea {
+	height:70px;
+}
+
+#contactForm input[type=submit] {
+	padding:5px 20px;
+	font-size:20px;
+	border:none;
+	background-color:#ddd;
+	border:1px solid #999;
+	border-radius:5px;
+	color:#111;
+	font-weight:none;
+	margin-left:290px;
+}
+
+#contactForm input[type=submit]:hover {
+	cursor:pointer;
+	color:#444;
+}
+
+
+.contactBlock#block2 {
+	float:right;
+}
+
+.contactBlock#block1 {
+	float:left;
+}
+
+.contactBlock {
+	width:380px;
+}
