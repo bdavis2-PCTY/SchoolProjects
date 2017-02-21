@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+
+body{
+    background-color:#eee;
+    font-size:18px;
+    min-width:900px;
+	line-height:1.5em;
+    font-family:Arimo;
+}
+
+footer{
+	margin-top:10px;
+	text-align:center;
+	padding:10px;
+}
+
+em {
+    font-style:italic;
+}
+
+strong {
+    font-weight:bold;
+}
+
+#navigation {
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    background-color:#333;
+    color:#cfcfcf;
+    font-family:Roboto;
+    display:block;
+    font-size:20px;
+    border-bottom:1px solid #111;
+	min-width:1000px;
+}
+
+#navigation p {
+    display:inline-table;
+    margin:8px 0 0 30px;
+}
+
+#navigation ul {
+    float:right;
+    display:block;
+    padding-right: 100px;
+}
+
+#navigation ul li{
+    display:inline-table;
+    padding:10px;
+    font-size:18px;
+}
+
+#navigation ul li a{
+    color:inherit;
+    text-decoration:none;
+    transition:color 0.3s;
+}
+
+#navigation ul li.active{
+    background-color:#444;
+    color:#fff;
+}
+
+#navigation ul li a:hover{
+    color:#fff;
+}
+
+#pageHeader {
+	text-align:center;
+	font-size:25px;
+}
+
+#pageHeader img {
+	width:120px;
+}
+#pageHeader p {
+line-height:2em;
+}
+
+#content {
+    margin:45px auto 30px auto;
+    width:870px;
+	background-color:#fff;
+	padding:10px 25px;
+	box-shadow:0 0 10px #000;
+}
+
+.indent {
+    margin-left:40px;
+}

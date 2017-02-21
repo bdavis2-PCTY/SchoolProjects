@@ -1,0 +1,33 @@
+#bonoboImageOne {
+	border-radius: 100%;
+    width: 150px;
+	height:150px;
+	background:url("../Images/self.jpg") center;
+	background-size:150% auto;
+    margin: 0 auto 25px auto;
+}
+
+
+#gallery .projectCard {
+    width: 200px;
+    display: inline-table;
+}
+
+	#gallery img { 
+	box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+	transition: box-shadow 0.2s;
+	max-width:190px;
+	}
+	
+
+    #gallery img:hover {
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    } 
+
+#gallery .projectCard .projectName {
+    padding:0 5px;
+}
+
+.bodyText ol li { 
+list-style:circle;
+}

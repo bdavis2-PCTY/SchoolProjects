@@ -1,0 +1,15 @@
+#loginWrapper {
+	width:500px;
+	margin:auto;
+}
+
+#loginWrapper label {
+	float:left;
+	width:200px;
+	margin-top:10px;
+}
+
+#loginWrapper input[type=email], #loginWrapper input[type=password]{
+	width:300px;
+	margin-bottom:10px;
+}

@@ -1,0 +1,28 @@
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="hiwave.com" resolutions="1x" timestamp="1484681758778">
+  <folder name="css">
+    <file name="site_global.css" crc="279794321"/>
+    <file name="index.css" crc="4226567561" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4148063285" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="172512987" ref="index"/>
+    <file name="jquery.musemenu.js" crc="3765830709" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="require.js" crc="4159430777" ref="index"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="hero-background-full.jpg" crc="91091678" seo="true" ref="index"/>
+    <file name="logo.png" crc="6428572" seo="true" ref="index"/>
+    <file name="icon-usb-power.png" crc="4283421280" seo="true" ref="index"/>
+    <file name="icon-constant-volume.png" crc="4067263201" seo="true" ref="index"/>
+    <file name="icon-multiple-ports.png" crc="3938547650" seo="true" ref="index"/>
+    <file name="icon-compact-size.png" crc="4085104670" seo="true" ref="index"/>
+    <file name="hero-transparent-full-price.png" crc="4173397730" seo="true" ref="index"/>
+    <file name="input-transparent-small.png" crc="417052244" seo="true" ref="index"/>
+  </folder>
+  <file name="index.html" crc="209040335" seo="true" mt="1484680672234" redirect="true"/>
+</manifest>

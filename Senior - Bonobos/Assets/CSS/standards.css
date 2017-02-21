@@ -1,0 +1,27 @@
+#contentWrapper .ui.active.tab{
+    padding:15px 30px;
+}
+
+.standardHeader {
+    font-weight:bold;
+}
+
+.standardBody td {
+    font-size:14px;
+    padding:0;
+    margin:0;
+}
+
+.standardBody td:first-child:before {
+    padding-left: 20px;
+    content: ' ';
+}
+
+table tr td:first-child, table tr th:first-child {
+    max-width:550px;
+}
+
+.ui.active.tab{
+    max-height:700px;
+    overflow-y:auto;
+}

@@ -1,0 +1,12 @@
+.evalBlock {
+	margin:30px 0; 
+}
+
+.evalBlock .evalName{
+	font-weight:bold;
+}
+
+.evalQuote {
+	font-style:italic;
+	margin-left:30px;
+}
